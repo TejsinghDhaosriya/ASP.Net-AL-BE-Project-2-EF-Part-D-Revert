@@ -4,9 +4,9 @@ namespace Student_API.Domain
 {
     public class StudentResponse
     {
-        public object? Data { get; }
+        public List<Student> Data { get; }
         public string? Error { get; init; }
-        public StudentResponse(Student data= null, string? error = null)
+        public StudentResponse(List<Student> data= null, string? error = null)
         {
             Data = data;
             Error = error;

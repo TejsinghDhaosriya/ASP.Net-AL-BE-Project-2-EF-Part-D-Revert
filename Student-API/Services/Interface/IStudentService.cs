@@ -4,6 +4,6 @@ namespace Student_API.Services.Interface
 {
     public interface IStudentService
     {
-        Student GetAllStudents();
+        List<Student> GetAllStudents();
     }
 }
