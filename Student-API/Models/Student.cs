@@ -15,7 +15,8 @@ namespace Student_API.Models
         public string className { get; set; }
 
         public string rollNumber { get; set; }
-        
-        public string section { get; set; }
+
+        public int year_of_enrollment { get; set; }
+
     }
 }
