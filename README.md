@@ -15,7 +15,7 @@ dotnet ef migrations add V2SectionCol --project Student-API.csproj
 dotnet ef database update V2SectionCol --project Student-API.csproj
 ``` 
 ```
-For default value approved used is- manually added default value in migration V2SectionCol
+For default value approach used is- manually added default value in migration V2SectionCol
 ```
 
 
