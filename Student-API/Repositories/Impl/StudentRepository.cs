@@ -5,9 +5,17 @@ namespace Student_API.Repositories.Impl
 {
     public class StudentRepository:IStudentRepository
     {
+        private readonly StudentDbContext _studentDbContext;
+
+        public StudentRepository(StudentDbContext studentDbContext)
+        {
+            _studentDbContext = studentDbContext;
+        }
+
         public List<Student> findAll()
         {
-            throw new NotImplementedException();
+            var students = _studentDbContext.Students.ToList();
+            return students;
         }
     }
 }

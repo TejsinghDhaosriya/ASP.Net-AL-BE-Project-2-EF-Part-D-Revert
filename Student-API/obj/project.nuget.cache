@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "X20B8wIpF8/2QhvkpEQ7cda7r8xWPSjh1FyfoADwM3yoKNYbY2P1C0EGQKKTCzElCQBAGm3zJdXAYoItCK3BUQ==",
+  "dgSpecHash": "8IrCvAULEEGiz22ZXSJe0IYJbHnRX9EMPvdSKTgBDw0qO5cx6HbxmFG0/BTwz9Z/nlG4BtxkZZ9V/EBUmYBgzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API\\Student-API\\Student-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tej\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\tej\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\tej\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tej\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\tej\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
