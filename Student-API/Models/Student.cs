@@ -15,5 +15,7 @@ namespace Student_API.Models
         public string className { get; set; }
 
         public string rollNumber { get; set; }
+        
+        public string section { get; set; }
     }
 }
