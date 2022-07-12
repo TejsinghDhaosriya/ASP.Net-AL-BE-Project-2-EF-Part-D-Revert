@@ -11,7 +11,7 @@ using Student_API.Repositories;
 namespace Student_API.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20220712153436_MigrationV1")]
+    [Migration("20220712154536_MigrationV1")]
     partial class MigrationV1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
