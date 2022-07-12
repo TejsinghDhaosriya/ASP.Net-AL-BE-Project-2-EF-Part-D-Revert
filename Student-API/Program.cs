@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Student_API.Repositories;
+using Student_API.Repositories.Impl;
+using Student_API.Repositories.Interface;
 using Student_API.Services.Impl;
 using Student_API.Services.Interface;
 
@@ -15,6 +17,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
 // Connect to SQL Database
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
