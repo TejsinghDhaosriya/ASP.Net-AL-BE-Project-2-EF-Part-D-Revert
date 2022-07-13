@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBGFTuwD7awck9P9gH2pxDm8DLyQmjuWXTeeiIzogZIwpylWJ1YStBUltFoMkoydxCyUbUNjuXoRHWo7tR1ycQ==",
+  "dgSpecHash": "12449AAPnECVssRwABXT9ln/i18uqbZFNkVATlUp4+GmWDH2+hXN6l0+dWXZhsYDrD6UPa+2tEkYHmHhBCXISA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-C-Change\\Student-API\\Student-API.csproj",
+  "projectFilePath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-D-Revert\\Student-API\\Student-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tej\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tej\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.5.nupkg.sha512",

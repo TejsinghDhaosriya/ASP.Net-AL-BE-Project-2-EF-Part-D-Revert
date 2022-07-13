@@ -6,8 +6,6 @@ namespace Student_API.Migrations
 {
     public partial class V2SectionCol : Migration
     {
-
-        // Manually Added Default Value NA for section col
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(

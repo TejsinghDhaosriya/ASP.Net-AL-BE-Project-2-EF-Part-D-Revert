@@ -11,8 +11,8 @@ using Student_API.Repositories;
 namespace Student_API.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20220712165902_V2SectionCol")]
-    partial class V2SectionCol
+    [Migration("20220713091346_V3AddYearOfEnrollmentAndRemoveSectionCol")]
+    partial class V3AddYearOfEnrollmentAndRemoveSectionCol
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,9 +43,8 @@ namespace Student_API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("section")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("year_of_enrollment")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
 

@@ -42,6 +42,7 @@ namespace Student_API.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("year_of_enrollment")
+                        .HasDefaultValue(2020)
                         .HasColumnType("int");
 
                     b.HasKey("id");

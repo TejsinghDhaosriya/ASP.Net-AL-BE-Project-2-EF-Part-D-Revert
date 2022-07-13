@@ -2057,11 +2057,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-C-Change\\Student-API\\Student-API.csproj",
+      "projectUniqueName": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-D-Revert\\Student-API\\Student-API.csproj",
       "projectName": "Student-API",
-      "projectPath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-C-Change\\Student-API\\Student-API.csproj",
+      "projectPath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-D-Revert\\Student-API\\Student-API.csproj",
       "packagesPath": "C:\\Users\\tej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-C-Change\\Student-API\\obj\\",
+      "outputPath": "C:\\Users\\tej\\workArea\\Asp.Net\\Student-API-Project\\ASP.Net-AL-BE-Project-2-EF-Part-D-Revert\\Student-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tej\\AppData\\Roaming\\NuGet\\NuGet.Config",

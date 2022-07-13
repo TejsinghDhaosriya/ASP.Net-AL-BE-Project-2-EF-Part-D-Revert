@@ -6,7 +6,6 @@ namespace Student_API.Migrations
 {
     public partial class V3AddYearOfEnrollmentAndRemoveSectionCol : Migration
     {
-        // Added Manually Default value 2020
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
@@ -32,7 +31,7 @@ namespace Student_API.Migrations
                 table: "students",
                 type: "nvarchar(max)",
                 nullable: false,
-                defaultValue: "");
+                defaultValue: "NA");
         }
     }
 }
