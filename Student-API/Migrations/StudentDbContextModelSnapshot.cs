@@ -41,13 +41,13 @@ namespace Student_API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("year_of_enrollment")
-                        .HasDefaultValue(2020)
-                        .HasColumnType("int");
+                    b.Property<string>("section")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
 
-                    b.ToTable("students");
+                    b.ToTable("students", (string)null);
                 });
 #pragma warning restore 612, 618
         }
